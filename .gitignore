@@ -16,5 +16,9 @@
 !/log/.keep
 /tmp
 
+# Ignore secret stuff
+config/database.yml
+config/secrets.yml
+
 # Ignore Vagrant stuff
 /.vagrant
