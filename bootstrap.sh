@@ -18,7 +18,7 @@ a2ensite demo-app
 
 # Passenger
 if ! type "passenger" > /dev/null; then
-  gem install passenger
+  gem install passenger -v 5.0.2
   apt-get install -y libcurl4-openssl-dev
   apt-get install -y apache2-threaded-dev
   apt-get install -y libapr1-dev
