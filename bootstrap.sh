@@ -40,5 +40,7 @@ apt-get install -y git
 mkdir -p /var/www/capistrano_demo
 mkdir -p /var/www/capistrano_demo/shared/config
 cp /vagrant/server_setup/secrets.yml /var/www/capistrano_demo/shared/config/
-cp /vagrant/config/database.yml /var/www/capistrano_demo/shared/config/
+cp /vagrant/server_setup/database.yml /var/www/capistrano_demo/shared/config/
+mkdir -p /var/www/capistrano_demo/shared/db
+touch /var/www/capistrano_demo/shared/db/production.sqlite3
 chown -R vagrant:vagrant /var/www/capistrano_demo
