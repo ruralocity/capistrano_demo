@@ -42,6 +42,8 @@ Sample application for my presentation on Capistrano at KC Ruby, March, 2015.
   print and out of date)
 - [Railscasts series on
   Capistrano](http://railscasts.com/episodes?search=capistrano) (out of date)
+- [Walkthrough of deploying Rails on a VM using
+  Capistrano](http://azure.microsoft.com/en-us/documentation/articles/virtual-machines-ruby-deploy-capistrano-host-nginx-unicorn/)
 
 ## Alternatives
 
